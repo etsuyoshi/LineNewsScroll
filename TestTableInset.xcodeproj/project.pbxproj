@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0423291A1066C70023AE89 /* a0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A0423271A1066C70023AE89 /* a0.jpg */; };
+		2A04232A1A1066C70023AE89 /* a10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A0423281A1066C70023AE89 /* a10.jpg */; };
+		2A04232D1A109B2F0023AE89 /* Type3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04232C1A109B2F0023AE89 /* Type3ViewController.m */; };
 		2AB3904D1A0A005500749DAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3904C1A0A005500749DAE /* main.m */; };
 		2AB390501A0A005500749DAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3904F1A0A005500749DAE /* AppDelegate.m */; };
 		2AB390531A0A005500749DAE /* TestTableInset.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AB390511A0A005500749DAE /* TestTableInset.xcdatamodeld */; };
@@ -15,6 +18,7 @@
 		2AB3905B1A0A005500749DAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB3905A1A0A005500749DAE /* Images.xcassets */; };
 		2AB3905E1A0A005500749DAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB3905C1A0A005500749DAE /* LaunchScreen.xib */; };
 		2AB3906A1A0A005500749DAE /* TestTableInsetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB390691A0A005500749DAE /* TestTableInsetTests.m */; };
+		2AB757841A0F8A4100125228 /* Type2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB757831A0F8A4100125228 /* Type2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A0423271A1066C70023AE89 /* a0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a0.jpg; sourceTree = "<group>"; };
+		2A0423281A1066C70023AE89 /* a10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a10.jpg; sourceTree = "<group>"; };
+		2A04232B1A109B2F0023AE89 /* Type3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type3ViewController.h; sourceTree = "<group>"; };
+		2A04232C1A109B2F0023AE89 /* Type3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type3ViewController.m; sourceTree = "<group>"; };
 		2AB390471A0A005500749DAE /* TestTableInset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTableInset.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB3904B1A0A005500749DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB3904C1A0A005500749DAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,8 @@
 		2AB390631A0A005500749DAE /* TestTableInsetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTableInsetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB390681A0A005500749DAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB390691A0A005500749DAE /* TestTableInsetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableInsetTests.m; sourceTree = "<group>"; };
+		2AB757821A0F8A4100125228 /* Type2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type2ViewController.h; sourceTree = "<group>"; };
+		2AB757831A0F8A4100125228 /* Type2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +98,10 @@
 				2AB390541A0A005500749DAE /* ViewController.h */,
 				2AB390551A0A005500749DAE /* ViewController.m */,
 				2AB390571A0A005500749DAE /* Main.storyboard */,
+				2AB757821A0F8A4100125228 /* Type2ViewController.h */,
+				2AB757831A0F8A4100125228 /* Type2ViewController.m */,
+				2A04232B1A109B2F0023AE89 /* Type3ViewController.h */,
+				2A04232C1A109B2F0023AE89 /* Type3ViewController.m */,
 				2AB3905A1A0A005500749DAE /* Images.xcassets */,
 				2AB3905C1A0A005500749DAE /* LaunchScreen.xib */,
 				2AB390511A0A005500749DAE /* TestTableInset.xcdatamodeld */,
@@ -99,6 +113,8 @@
 		2AB3904A1A0A005500749DAE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A0423271A1066C70023AE89 /* a0.jpg */,
+				2A0423281A1066C70023AE89 /* a10.jpg */,
 				2AB3904B1A0A005500749DAE /* Info.plist */,
 				2AB3904C1A0A005500749DAE /* main.m */,
 			);
@@ -204,6 +220,8 @@
 			files = (
 				2AB390591A0A005500749DAE /* Main.storyboard in Resources */,
 				2AB3905E1A0A005500749DAE /* LaunchScreen.xib in Resources */,
+				2A04232A1A1066C70023AE89 /* a10.jpg in Resources */,
+				2A0423291A1066C70023AE89 /* a0.jpg in Resources */,
 				2AB3905B1A0A005500749DAE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +242,8 @@
 			files = (
 				2AB390531A0A005500749DAE /* TestTableInset.xcdatamodeld in Sources */,
 				2AB390501A0A005500749DAE /* AppDelegate.m in Sources */,
+				2A04232D1A109B2F0023AE89 /* Type3ViewController.m in Sources */,
+				2AB757841A0F8A4100125228 /* Type2ViewController.m in Sources */,
 				2AB390561A0A005500749DAE /* ViewController.m in Sources */,
 				2AB3904D1A0A005500749DAE /* main.m in Sources */,
 			);
@@ -348,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTableInset/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -358,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTableInset/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +438,7 @@
 				2AB3906F1A0A005500749DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AB390701A0A005500749DAE /* Build configuration list for PBXNativeTarget "TestTableInsetTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +447,7 @@
 				2AB390721A0A005500749DAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
